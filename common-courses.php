@@ -3,7 +3,7 @@
 /*
 	Plugin Name: Common - Courses
 	Description: WordPress plugin that provides a shortcode to display a table of courses for a given department.
-	Version: 1
+	Version: 1.1
 	Author: Rachel Tran
 	License: GPL2
 	License URI: https://www.gnu.org/licenses/gpl-2.0.html
