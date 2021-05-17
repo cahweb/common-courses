@@ -27,12 +27,20 @@ function courses_handler($atts = []) {
     ], $atts);
 
     $dept = DEPT;
-    $dio = $attributes['dio'];
-    $start = strtolower($attributes['start']);
-    $end = strtolower($attributes['end']);
+    $dio = $atts['dio'];
+    $start = $atts['start'];
+    $end = $atts['end'];
     
     if ($dio) {
         $dept = $dio;
+    }
+
+    if ($start) {
+        $start = strtolower($start);
+    }
+
+    if ($end) {
+        $end = strtolower($start);
     }
     
     if (defined('DEPT') || $dio) {
