@@ -5,7 +5,7 @@ A WordPress plugin that provides a shortcode to display a table of courses for a
 ## External dependecies
 
 - Athena Bootstrap (CSS/JS)
-- Athena Bootstrap jQquery (for modals and tooltips)
+- Athena Bootstrap jQuery (for modals and tooltips)
 
 ## Installation
 
